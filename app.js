@@ -4,12 +4,13 @@ const tobuyButton = document.querySelector(".tobuy-button");
 const tobuyList = document.querySelector(".tobuy-list");
 const filterOption = document.querySelector(".filter-tobuys");
 
-
 //Event listeners
 document.addEventListener('DOMContentLoaded', getLocalTobuys);
 tobuyButton.addEventListener('click', addTobuy);
 tobuyList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTobuy);
+
+
 
 //Functions
 
